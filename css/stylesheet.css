@@ -1,4 +1,59 @@
+html {
+	background-image: url('../images/border.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
 body {
-	background-image: url('../images/lovelycouple.jpg');
-	background-size: 90%;
+	margin-top: 5%;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+h1 {
+	text-align: center;
+	font-family: 'Sofia', cursive;
+	font-size: 5em;
+}
+p, h2, .form-group {
+	font-family: 'IM Fell Double Pica', serif;
+}
+h2 {
+	font-style: italic;
+}
+#captureUs {
+	text-align: center;
+	margin-top: -4em;
+}
+.hashtag {
+	font-size: 2em;
+	font-family: 'Amatic SC', cursive;
+}
+#submit {
+	margin-top: -2em;
+}
+#theCouple {
+	background-image: url('../images/penguin.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	border-radius: 2em;
+	height: 25em;
+	width: 50%;
+	padding-bottom: 0;
+	margin: auto;
+}
+#location {
+	margin-top: 1em;
+}
+#myForm {
+	margin-top: -12em;
+}
+footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	font-style: italic;
+}
+#submit {
+	text-align: left;
 }
