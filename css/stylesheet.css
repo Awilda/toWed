@@ -1,7 +1,7 @@
 html {
 	background-image: url('../images/border.jpg');
-	background-size: 100%;
-	background-repeat: no-repeat;
+	/*background-size: cover;*/
+	/*background-repeat: no-repeat;*/
 }
 body {
 	margin-top: 5%;
@@ -34,7 +34,6 @@ h2 {
 	background-image: url('../images/penguin.jpg');
 	background-size: 100%;
 	background-repeat: no-repeat;
-	border-radius: 2em;
 	height: 25em;
 	width: 50%;
 	padding-bottom: 0;
@@ -53,6 +52,7 @@ footer {
 	left: 0;
 	text-align: center;
 	font-style: italic;
+	border-top: solid;
 }
 #submit {
 	text-align: left;
